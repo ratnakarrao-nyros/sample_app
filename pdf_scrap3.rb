@@ -9,6 +9,7 @@
 require 'pdf-reader'   
 require 'open-uri'
 ####################
+$$$$$$$$$$$$$$$$$
 ##########  This section contains the callback code that processes the PDF file contents  ######
 class PageTextReceiver
   attr_accessor :content, :page_counter

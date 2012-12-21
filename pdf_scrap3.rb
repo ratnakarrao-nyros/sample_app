@@ -8,7 +8,7 @@
 # If you have problems you can ask for help at http://groups.google.com/group/pdf-reader
 require 'pdf-reader'   
 require 'open-uri'
-
+####################
 ##########  This section contains the callback code that processes the PDF file contents  ######
 class PageTextReceiver
   attr_accessor :content, :page_counter

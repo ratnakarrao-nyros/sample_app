@@ -16,7 +16,8 @@ class PageTextReceiver
     @content = []
     @page_counter = 0
   end
-  # Called when page parsing starts
+ ############################
+ # Called when page parsing starts
   def begin_page(arg = nil)
     @page_counter += 1
     @content << ""
